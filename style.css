@@ -1,0 +1,56 @@
+:root {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.capa {
+    background-color: brown;
+    position: relative;
+}
+
+.img__capa {
+    width: 1349px;
+    height: 300px;
+}
+
+.capa__copy {
+    position: absolute;
+    top: 200px;
+    left: 75px;
+   
+}
+
+.img__perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 7px 7px black;
+    
+}
+
+.text__copy {
+   
+    background-color: brown;
+    text-align: center;
+    max-width: 50px;
+}
+   
+.text__capa {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 4.758rem;
+    margin-top: 0;
+    margin-left: 300px;
+}
+
+.text__capa span {
+    margin-left: 400px;
+}
+    
